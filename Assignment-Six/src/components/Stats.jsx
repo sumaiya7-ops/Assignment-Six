@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Stats = () => {
-    return (
-      
+    return (      
             <div className="bg-[#7F27FF] text-white py-12 px-6">
   <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-around text-center gap-8">    
    
@@ -20,10 +19,8 @@ const Stats = () => {
       <h2 className="text-4xl md:text-5xl font-bold">4.9</h2>
       <p className="text-sm md:text-base opacity-80 mt-1">Rating</p>
     </div>
-
   </div>
-</div>
-     
+</div>     
     );
 };
 
