@@ -2,9 +2,9 @@ import React from "react";
 
 const ProductCard = ({ product, addToCart, isInCart }) => {
   const tagStyles = {
-    "Best-seller": "bg-amber-100 text-[#bb4d00]",
-    popular: "bg-[#e1e7ff] text-blue-500",
-    new: "bg-[#dbfce7] text-[#0a883e]",
+    "Best Seller": "bg-amber-100 text-[#bb4d00]",
+    "Popular": "bg-[#e1e7ff] text-blue-500",
+    "New": "bg-[#dbfce7] text-[#0a883e]",
   };
   return (
     <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col relative hover:shadow-md transition-all duration-300">
