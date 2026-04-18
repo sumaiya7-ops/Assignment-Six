@@ -49,7 +49,7 @@ const Footer = () => {
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
                     <p>© 2026 Digitools. All rights reserved.</p>
                     <div className="flex gap-6">
-                        <span className="hover:text-white cursor-pointer">Privacy Policy</span>
+                         <span className="hover:text-white cursor-pointer">Privacy Policy</span>
                         <span className="hover:text-white cursor-pointer">Terms of Service</span>
                         <span className="hover:text-white cursor-pointer">Cookies</span>
                     </div>
