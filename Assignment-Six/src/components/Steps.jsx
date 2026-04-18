@@ -34,7 +34,6 @@ const Steps = () => {
                 <p className="text-gray-500 mb-16 max-w-lg mx-auto">
                     Start using premium digital tools in minutes, not hours.
                 </p>
-
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {stepsData.map((step) => (
                         <div key={step.id} className="relative bg-white p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center">
