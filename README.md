@@ -1,5 +1,7 @@
 # 🛍️ Digital Product Store
 
+🌐 Live Demo: https://storied-tapioca-7cdc0a.netlify.app/
+
 A fully responsive digital product marketplace built with React, where users can explore subscription-based services, manage selections through an interactive cart system, and experience real-time UI updates with smooth user interactions.
 
 This project focuses on modern frontend development practices including component-based architecture, state management, and user-friendly interface design.
@@ -28,6 +30,7 @@ This project focuses on modern frontend development practices including componen
 - JSON (for product data)  
 
 ---
+
 
 ## 📸 UI Sections
 
