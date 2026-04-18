@@ -51,10 +51,8 @@ const Cart = ({ cart, removeFromCart, checkout }) => {
                         <p className="text-sm text-gray-500">
                        Qty: {item.qty}
                           </p>
-                      </div>
-                    
-                  </div>
-                  
+                      </div>                    
+                  </div>                  
                   <button
                     onClick={() => removeFromCart(item.id)}
                     className="text-[#FF4D6D] hover:text-red-600 font-semibold text-sm transition-colors pr-2"
