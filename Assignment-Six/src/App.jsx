@@ -4,14 +4,14 @@ import Banner from "./components/Banner";
 import products from "./data/products";
 import ProductCard from "./components/ProductCard";
 import Cart from "./components/Cart";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
-
+import { toast } from "react-toastify";
 function App() {
   const [view, setView] = useState("products");
   const [cart, setCart] = useState([]);
@@ -104,7 +104,7 @@ function App() {
       <Pricing />
       <CTA />
       <Footer />
-      <ToastContainer position="top-center" />
+     <ToastContainer position="top-right" autoClose={2000} />
     </div>
   );
 }
