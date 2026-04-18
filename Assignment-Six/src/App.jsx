@@ -47,22 +47,16 @@ function App() {
   return (
     <div className="bg-[#F9FAFB] min-h-screen">
       <Navbar cartCount={cart.length} />
-
       <Banner />
       <Stats />
-
       <div className="text-center pt-10 pb-8 px-4">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
           Premium Digital Tools
         </h1>
-
         <p className="text-gray-500 max-w-2xl mx-auto">
           Choose from our curated collection of digital products.
-        </p>
-
-        {/* BUTTONS */}
+        </p>   
         <div className="mt-8 inline-flex bg-gray-200 rounded-full p-1 w-fit mx-auto">
-
           <button
             onClick={() => setView("products")}
             className={`px-8 py-2 rounded-full text-sm font-bold transition-all ${
@@ -73,7 +67,6 @@ function App() {
           >
             Products
           </button>
-
           <button
             onClick={() => setView("cart")}
             className={`px-8 py-2 rounded-full text-sm font-bold transition-all ${
@@ -84,11 +77,8 @@ function App() {
           >
             Cart ({cart.length})
           </button>
-
         </div>
       </div>
-
-      {/* MAIN */}
       <div className="container mx-auto p-10">
         {view === "products" ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +91,6 @@ function App() {
                 isInCart={lastSelectedId === singleProduct.id}
               />
             ))}
-
           </div>
         ) : (
           <Cart
@@ -111,12 +100,10 @@ function App() {
           />
         )}
       </div>
-
       <Steps />
       <Pricing />
       <CTA />
       <Footer />
-
       <ToastContainer position="top-center" />
     </div>
   );
